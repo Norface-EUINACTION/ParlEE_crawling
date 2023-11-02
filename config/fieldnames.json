@@ -1,0 +1,13 @@
+{
+  "date": "Date of the speech taken either from metadata or the file",
+  "agenda": "(if available) Speech topic",
+  "speechnumber": "Number of the speech starting from 1",
+  "paragraphnumber": "Paragraph number with a single speech, starting from 1, reset to 1 when new speech starts",
+  "speaker": "First and last name of the speaker",
+  "party": "Party name in the shortest form, usually acronym",
+  "text": "Text in the paragraph",
+  "parliament": "Parliament name in the format ISO_CODE_2-ParliamentName, e.g. DE-Bundestag",
+  "iso3country": "ISO 3 digit code for a country, e.g. DEU",
+  "partyname": "(if available) Full party name",
+  "speakerrole": "Role of the speaker, e.g. Ministary of Education, independent"
+  }

@@ -1,0 +1,34 @@
+{
+    "roles": [
+        "Alt[oa] Representante .+?",
+        "[aA]utora?.*?",
+        "[Cc]omisión",
+        "[Cc]onsejo",
+        "Consejo",
+        "en nombre de.+",
+        "[Mm]iembro de la Comisión.*?",
+        "[Pp]onente.*?",
+        "[Pp]resident[ea].*?",
+        "[Dd]efensor.+?",
+        "[Vv]icepresident[ea].*?",
+        "Comisari[oa]",
+        "suplente (?:del|de la) autora?.*",
+        "en representación de.+?",
+        "a nome del gruppo.*?"
+    ],
+    "president": [
+        "El Presidente",
+        "La Presidenta"
+    ],
+    "in_writing": "[Pp]or escrito",
+    "more_roles": [
+        "^(Presidente designado de la Comisión)[\\s\\-–\\.]+",
+        "^(Presidente del Tribunal de Cuentas)[\\s\\-–\\.]+",
+        "^(Presidente en ejercicio del Consejo)[\\s\\-–\\.]+",
+        "^(Presidente de la Comisión de Asuntos Económicos y Monetarios)[\\s\\-–\\.]+"
+    ],
+    "extra_abbreviations": [
+        "sra",
+        "sres"
+    ]
+}
