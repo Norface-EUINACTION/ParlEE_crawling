@@ -37,15 +37,15 @@ Run parse_national.py for the respective country (run "python -m eia_crawling.pa
 
 ### Corpus creation and sentence splitting (_party_positioning_ subfolder):
 Create the national corpus and split it on the sentence level run:
-"python -m party_positioning.create_national_corpus \<country\>" from ./eia-crawling/ directory, ATTENTION: GPU required)
+"python -m create_national_corpus \<country\>", ATTENTION: GPU required)
 
 The only exception to this process is the EP speech data. We need to pass each language chunk create by postprocess_ep_speeches.py through the sentence splitting.
-Run: "python -m party_positioning.create_national_corpus ep \<language_code\>"
+Run: "python -m create_national_corpus ep \<language_code\>"
 
 
 ### Second postprocessing (folder _postprocessing_)
 In this step, we run country specific postprocessing to clean the data.
-Run postprocessing_\<country\>.py for the respective country (if it exists) (run: "python eia-crawling/party_positioning/postprocessing/postprocessing_\<country\>.py")
+Run postprocessing_\<country\>.py for the respective country (if it exists) (run: "python postprocessing/postprocessing_\<country\>.py")
 
 For most of the countries, we keep the following files:
 - \<country\>_corpus_2009_2019_raw.csv # File prior to postprocessing
